@@ -1,0 +1,220 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body{
+    background-image: url(imagenes/AllPost_background.jpg);
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+.ft-legal-list{
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  footer {
+    background-color: transparent;
+    border-top:solid white 1px; ;
+    color: white;
+    line-height: 1.5;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #eee;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .ft-title {
+    color: #fff;
+    font-family: ’Merriweather’, serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+  }
+  
+
+.mainH3 {
+    color: white;
+    font-family: "Pattaya", sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    margin: 4px auto;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+  }
+.mainH2{
+    color:white;
+    font-family: 'Pattaya', sans-serif;
+    text-align:center;
+    font-size: 20pt;
+    margin: 1px auto;
+    text-shadow: black 0.1em 0.1em 0.2em
+}  
+
+.mainH4{
+    color:white;
+    font-family: 'Pattaya', sans-serif;
+    text-align:center;
+    font-size: 20pt;
+    margin: 1px auto 15px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+}  
+
+.container{
+    width: 95%;
+    height: 90%;
+    box-sizing: border-box;
+    margin: 0 auto
+}
+
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+  
+a:link {
+    color: white;
+}
+  
+a:visited {
+    color: white;
+}
+  
+a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+}
+  
+a:hover {
+    border-bottom: 1px solid;
+    color: rgb(1, 41, 41);
+    text-shadow: white 0.1em 0.1em 0.2em;
+    background: #EAEFDE;
+}
+  
+a:active {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background: white;
+}  
+
+.nav-link:hover {
+    border-bottom: 1px solid;
+    color: rgb(1, 41, 41);
+    text-shadow: white 0.1em 0.1em 0.2em;
+    background: #EAEFDE;
+}
+  
+.nav-link:active {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background: transparent;
+}
+
+.selected{
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+.btn-primary{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    background-color: rgb(5, 138, 138);
+}
+
+.btn-primary:link{
+    color: white;
+    background-color: rgb(5, 138, 138);
+}
+
+
+.btn-primary:visited{
+    color: white;
+    background-color: rgb(5, 138, 138)
+}
+
+.btn-primary:focus{
+    border-bottom: 1px solid;
+}
+
+.btn-primary:hover {
+    border-bottom: 1px solid;
+    color: rgb(1, 41, 41);
+    background: #AC756E;
+    font-style: bold;
+}
+  
+.btn-primary:active {
+    color: rgb(1, 41, 41);
+    font-style: bold;
+    background: white;
+}  
+
+
+#spanish{
+    color:rgb(1, 41, 41)
+}
+
+#english{
+    color:rgb(1, 41, 41)
+}
+
+.onlyOne{
+    width: 50%;
+    margin: 0px 25%;
+}
+
+
+@media screen and (max-width: 500px){
+    body{
+        background-size: 100%;
+        background-repeat: no-repeat;   
+    }
+    .container{
+        width: 100%;
+    }  
+    footer {
+        background-color: rgb(5, 138, 138);
+        border-top:solid rgb(1, 41, 41) 1px; ;
+        color: white;
+        line-height: 1.5;
+    }
+    .imgAdded{
+        max-width: 100%;
+    }
+    .card.h-100{
+        border: rgb(21, 94, 94) 1px solid 2px;
+    }
+    #important{
+    border: rgb(1, 41, 41) 6px dotted;
+    }
+    .noImportant{
+    border: rgb(1, 41, 41) 1px solid;
+    }
+}
+
+
+@media screen and (max-width: 765px){
+    .onlyOne{
+        width: 100%;
+        margin: 0% 0%;
+    }
+}
+
+

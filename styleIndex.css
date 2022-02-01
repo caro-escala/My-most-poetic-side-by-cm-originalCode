@@ -1,0 +1,385 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  background-image: url(imagenes/index_background.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bodyContainer {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.subcontainer {
+  width: 90%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  align-content: center;
+}
+
+
+.ft-legal-list{
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  background-color: transparent;
+  border-top:solid white 1px; ;
+  color: white;
+  line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ft-title {
+  color: #fff;
+  font-family: ’Merriweather’, serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+
+.mainH1 {
+  color: white;
+  font-family: "Pattaya", sans-serif;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  text-align: center;
+  font-size: 40pt;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.mainH2 {
+  color: white;
+  font-family: "Pattaya", sans-serif;
+  text-align: center;
+  font-size: 20pt;
+  margin: 0px auto 1px auto;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.mainH3 {
+  color: white;
+  font-family: "Pattaya", sans-serif;
+  text-align: center;
+  font-size: 30pt;
+  margin: 4px auto;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+}
+
+
+.pInicial {
+  font-family: "Roboto", sans-serif;
+  color: #eaefde;
+  font-size: 17pt;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.pDark {
+  color: #435160;
+  text-align: center;
+  font-family: "Architects Daughter", cursive;
+  font-size: large;
+}
+
+.introduccion{
+  background-color: transparent
+}
+
+.firstColumn {
+  width: 30%;
+  min-width: 250pt;
+  margin: 1% auto;
+  border: solid 2px rgb(2, 68, 68);
+  position: center;
+  float: left;
+  padding: 1% 1%;
+  background-color: #eaefde;
+  box-sizing: border-box;
+}
+
+.secondColumn {
+  width: 65%;
+  min-width: 250pt;
+  margin: 1% 0% 1% 5%;
+  position: center;
+  float: left;
+  padding: 1% 1%;
+  box-sizing: border-box;
+}
+
+#aboutTiming {
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+  color: #eaefde;
+  font-size: 14pt;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin: 10px auto;
+}
+
+.intervalHighlight {
+  float: right;
+  background-color: #eaefde;
+  color: rgb(2, 68, 68);
+  border: dotted 2px rgb(2, 68, 68);
+}
+
+.intervalHighlightVersion2 {
+  float: right;
+  background-color: white;
+  color: #ac756e;
+  border: dotted 2px #503532;
+}
+
+.postAnnounced {
+  margin: 1% auto;
+  width: 100%;
+  height: 100px;
+  padding: 1% 1%;
+  color: white;
+  border-bottom: solid 2px rgb(2, 68, 68);
+  border-left: dotted 2px rgb(2, 68, 68);
+  border-right: solid 2px rgb(2, 68, 68);
+  border-top: dotted 2px rgb(2, 68, 68);
+  box-shadow: whitesmoke 0.1em 0.1em 0.2em;;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  background: transparent;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: auto;
+}
+
+#picture {
+  width: 100%;
+  border: double 2px #ac756e;
+  display: flex;
+  z-index: 2;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+#main3 {
+  color: #ac756e;
+  font-size: 80%;
+  position: center;
+  z-index: 2;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  color: rgb(1, 41, 41);
+  text-shadow: white 0.1em 0.1em 0.2em;
+  background: #eaefde;
+}
+
+a:active {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  background: white;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid;
+  color: rgb(1, 41, 41);
+  text-shadow: white 0.1em 0.1em 0.2em;
+  background: #eaefde;
+}
+
+.nav-link:active {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  background: transparent;
+}
+
+.selected {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+#spanish {
+  color: rgb(1, 41, 41);
+}
+
+#english {
+  color: rgb(1, 41, 41);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ft-title {
+  color: #fff;
+  font-family: ’Merriweather’, serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+
+.d-flex .bd-highlight .mb-3{
+  margin-bottom: 0;
+}
+
+.clue{
+  margin: 1% 20%;
+  text-align: center;
+  color: white;
+  font-size: 15pt;
+  border: solid white 1px;
+}
+
+.noShowed{
+  display: none;
+}
+
+#contact{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+#subs{
+  min-width: 250pt;
+  padding: 1% 1%;
+  box-sizing: border-box;
+  float: right;
+
+}
+
+.widget_blog_subscription{
+  margin: 1% auto;
+  width: 57%;
+  padding: 1% 1%;
+  position: absolute;
+  top: 195%;
+}
+
+
+#subscribe-fieldName{
+  width: 25%; 
+  padding: 1px 2px;
+  text-align: center;
+}
+
+#subscribe-fieldEmail{
+  width: 58.7%; 
+  padding: 1px 2px;
+  text-align: center;
+}
+
+#subscriptionBotton{
+  width: 15%;
+  padding: 1px 2px; 
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .firstColumn {
+    width: 100%;
+    align-content: center;
+    margin: 1% auto;
+    box-sizing: border-box;
+  }
+  .secondColumn {
+    width: 100%;
+    align-content: center;
+    margin: 1% auto;
+    box-sizing: border-box;
+  }
+  .postAnnounced {
+   height: 150px;
+  }
+  .clue{
+  margin: 1% 10%;
+  text-align: center;
+  color: white;
+  font-size: 15pt;
+  border: solid white 1px;
+  }
+  .noShowed{
+  display: none;
+  }
+  .widget_blog_subscription{
+    margin: 1% auto;
+    width: 100%;
+    padding: 1% 1%;
+    position: relative;
+  }
+  #subscribe-fieldName{
+    width: 100%; 
+    padding: 1px 2px;
+    margin: 0 auto;
+  }
+  #subscribe-fieldEmail{
+    width: 100%; 
+    padding: 1px 2px;
+    align-content: center;
+  }
+  #subscriptionBotton{
+    width: 100%;
+    padding: 1px 2px; 
+    align-content: center;
+  }
+
+
+}
